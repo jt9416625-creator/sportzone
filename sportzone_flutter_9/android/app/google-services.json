@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "973182308758",
+    "project_id": "sportzoneflutter",
+    "storage_bucket": "sportzoneflutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973182308758:android:753c022a2e981b62888db7",
+        "android_client_info": {
+          "package_name": "com.example.sportzone_flutter_9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ_-Ui4vAVr21HJPvh4c8lM2i-KTaQGEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

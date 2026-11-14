@@ -1,0 +1,45 @@
+name: proyecto_app_movil
+description: "SportZone - app deportiva multideporte"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # --- Paquetes nuevos (front-end) ---
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  # Trae ImageRenderMethodForWeb (lo usan player_face.dart y match_tabs.dart)
+  cached_network_image_platform_interface: ^4.1.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.2
+  confetti: ^0.8.0
+  fl_chart: ^0.69.0
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  firebase_core: ^5.1.0
+  firebase_auth: ^7.0.1
+  cloud_firestore: ^7.1.0
+
+  # --- Firebase RETIRADO por ahora. Cuando lo conectemos, vuelve a agregar: ---
+  # firebase_core: ^4.15.0
+  # firebase_auth: ^6.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Capas PNG del avatar (se generan con tool/generate_avatar_assets.py)
+  assets:
+    - assets/avatar/
+    - assets/avatar/thumbs/
